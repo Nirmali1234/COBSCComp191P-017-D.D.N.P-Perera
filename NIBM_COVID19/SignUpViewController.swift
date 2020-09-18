@@ -28,22 +28,35 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var Password: UITextField!
     
+    var ref : DatabaseReference!
     
     @IBAction func SignUp(_ sender: UIButton) {
         
         if let email = Email.text, let password = Password.text {
             
-            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-             
-                if let e = error {
-                    print(e)
-                }
-                else{
-//                    self.performSegue(withIdentifier: "SignupSegway", sender: self)
-                    print("Success")
-                }// ...
-            }
-        }
+                        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            
+                            if let e = error {
+                                print(e)
+                            }
+                            else{
+                                let userId = authResult?.user.uid
+                                let firstName = self.FirstName.text
+                                let lastName = self.LastName.text
+                                let email = self.Email.text
+                                let role = self.Role.text
+                                
+                                self.ref = Database.database().reference()
+                                self.ref.child("userData").child(userId ?? "").setValue(["FName": firstName, "LName": lastName, "email": email, "UserRole": role])
+                                
+            //                    self.performSegue(withIdentifier: "SignupSegway", sender: self)
+                                print("Success")
+                            }// ...
+                        }
+    }
+  
+
+       
     }
     /*
      @IBOutlet weak var Email: UITextField!
@@ -55,5 +68,7 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }

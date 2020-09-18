@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CDB6659BF0732BAD90F82DC /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */; };
 		9BDEA8642E6DB4E8AA829826 /* Pods_NIBM_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AC0AC60F2513B3AB00245848 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC60E2513B3AB00245848 /* ResultViewController.swift */; };
 		AC5F98C425123D1700D44593 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC5F98C325123D1700D44593 /* GoogleService-Info.plist */; };
 		AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C625123FB300D44593 /* SignUpViewController.swift */; };
 		AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C825123FE200D44593 /* LoginViewController.swift */; };
@@ -21,6 +22,8 @@
 		ACA11937250F955B003E7F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA11935250F955B003E7F1B /* LaunchScreen.storyboard */; };
 		ACA11942250F955C003E7F1B /* NIBM_COVID19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA11941250F955C003E7F1B /* NIBM_COVID19Tests.swift */; };
 		ACA1194D250F955C003E7F1B /* NIBM_COVID19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1194C250F955C003E7F1B /* NIBM_COVID19UITests.swift */; };
+		ACD649102514B4270026B716 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6490F2514B4270026B716 /* ProfileViewController.swift */; };
+		ACD649122514E7A30026B716 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD649112514E7A20026B716 /* BackViewController.swift */; };
 		F1D622E56AB476EE5E154DED /* Pods_NIBM_COVID19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28C2CD77E4EDF908477E1E /* Pods_NIBM_COVID19Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,7 @@
 		37344DEC38DB0C9D0612E6A6 /* Pods-NIBM_COVID19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19Tests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19Tests/Pods-NIBM_COVID19Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A28C2CD77E4EDF908477E1E /* Pods_NIBM_COVID19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19_NIBM_COVID19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0AC60E2513B3AB00245848 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		AC5F98C325123D1700D44593 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC5F98C625123FB300D44593 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC5F98C825123FE200D44593 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		ACA11948250F955C003E7F1B /* NIBM_COVID19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBM_COVID19UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1194C250F955C003E7F1B /* NIBM_COVID19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_COVID19UITests.swift; sourceTree = "<group>"; };
 		ACA1194E250F955C003E7F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD6490F2514B4270026B716 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACD649112514E7A20026B716 /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
 		B862AB3EFCD9F4E3A62FAA68 /* Pods-NIBM_COVID19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19/Pods-NIBM_COVID19.debug.xcconfig"; sourceTree = "<group>"; };
 		CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D948FA51A445135977CBDEBB /* Pods-NIBM_COVID19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19.release.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19/Pods-NIBM_COVID19.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 				AC5F98C625123FB300D44593 /* SignUpViewController.swift */,
 				AC5F98C825123FE200D44593 /* LoginViewController.swift */,
 				AC5F98CA25125ADE00D44593 /* SurveyViewController.swift */,
+				AC0AC60E2513B3AB00245848 /* ResultViewController.swift */,
+				ACD6490F2514B4270026B716 /* ProfileViewController.swift */,
+				ACD649112514E7A20026B716 /* BackViewController.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -420,11 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD649122514E7A30026B716 /* BackViewController.swift in Sources */,
 				ACA1192C250F955B003E7F1B /* ViewController.swift in Sources */,
 				ACA11932250F955B003E7F1B /* NIBM_COVID19.xcdatamodeld in Sources */,
+				AC0AC60F2513B3AB00245848 /* ResultViewController.swift in Sources */,
 				AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */,
 				AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */,
 				AC5F98CB25125ADE00D44593 /* SurveyViewController.swift in Sources */,
+				ACD649102514B4270026B716 /* ProfileViewController.swift in Sources */,
 				ACA1192A250F955B003E7F1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

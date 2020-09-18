@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "coronavirus-image-iStock-628925532-1200px.jpg",
+      "filename" : "__avoid_travel_risk-512.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "coronavirus-image-iStock-628925532-1200px-1.jpg",
+      "filename" : "__avoid_travel_risk-513.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "coronavirus-image-iStock-628925532-1200px-2.jpg",
+      "filename" : "__avoid_travel_risk-514.png",
       "scale" : "3x"
     }
   ],
