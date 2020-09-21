@@ -50,6 +50,14 @@ class FaceIDViewController: UIViewController {
         
         
     }
+    
+    
+    @IBAction func baksbuttento(_ sender: UIButton) {
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

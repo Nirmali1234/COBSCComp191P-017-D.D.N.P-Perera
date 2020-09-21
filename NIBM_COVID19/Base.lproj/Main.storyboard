@@ -402,7 +402,7 @@
                                 </constraints>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="76Z-og-iRs" kind="showDetail" id="FpX-Li-12L"/>
+                                    <action selector="baksbuttento:" destination="L0C-kc-H3X" eventType="touchUpInside" id="9Vy-QL-sCE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -540,9 +540,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xo6-mm-ugD"/>
                     </view>
-                    <connections>
-                        <outlet property="mapView" destination="kUd-0C-N4G" id="KFi-tt-Zdr"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eA-TG-U0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -760,8 +757,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="R75-iO-gYU"/>
         <segue reference="FVG-62-A8V"/>
-        <segue reference="1Tg-E5-8oZ"/>
-        <segue reference="FpX-Li-12L"/>
+        <segue reference="K16-Gi-Aso"/>
         <segue reference="FqU-Zh-mSH"/>
         <segue reference="RMt-42-Er9"/>
     </inferredMetricsTieBreakers>
