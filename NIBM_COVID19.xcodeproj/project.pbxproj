@@ -11,6 +11,7 @@
 		9BDEA8642E6DB4E8AA829826 /* Pods_NIBM_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC0AC60F2513B3AB00245848 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC60E2513B3AB00245848 /* ResultViewController.swift */; };
 		AC2C3EF32518D51D00D452D5 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C3EF22518D51C00D452D5 /* FaceIDViewController.swift */; };
+		AC2C3EF52518EBAB00D452D5 /* GeofencingCtrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C3EF42518EBAA00D452D5 /* GeofencingCtrlViewController.swift */; };
 		AC5F98C425123D1700D44593 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC5F98C325123D1700D44593 /* GoogleService-Info.plist */; };
 		AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C625123FB300D44593 /* SignUpViewController.swift */; };
 		AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C825123FE200D44593 /* LoginViewController.swift */; };
@@ -52,6 +53,7 @@
 		82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19_NIBM_COVID19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0AC60E2513B3AB00245848 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		AC2C3EF22518D51C00D452D5 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
+		AC2C3EF42518EBAA00D452D5 /* GeofencingCtrlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencingCtrlViewController.swift; sourceTree = "<group>"; };
 		AC5F98C325123D1700D44593 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC5F98C625123FB300D44593 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC5F98C825123FE200D44593 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				ACD6490F2514B4270026B716 /* ProfileViewController.swift */,
 				ACD649112514E7A20026B716 /* BackViewController.swift */,
 				AC2C3EF22518D51C00D452D5 /* FaceIDViewController.swift */,
+				AC2C3EF42518EBAA00D452D5 /* GeofencingCtrlViewController.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2C3EF52518EBAB00D452D5 /* GeofencingCtrlViewController.swift in Sources */,
 				ACD649122514E7A30026B716 /* BackViewController.swift in Sources */,
 				ACA1192C250F955B003E7F1B /* ViewController.swift in Sources */,
 				AC2C3EF32518D51D00D452D5 /* FaceIDViewController.swift in Sources */,
